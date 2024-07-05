@@ -1,0 +1,347 @@
+Empower young minds with the language of tomorrow and watch their creativity unfold into digital mastery
+How do we equip you for success?
+https://chat.whatsapp.com/Jyfbd5LzbeQALvbzBmAYFF
+https://youtu.be/Dv7gLpW91DM
+font-size:60px;
+text-align: center;
+display: block;
+padding: 80px;
+font-family: "Merriweather";
+font-weight: 500;
+justify-content: center;
+background: linear-gradient(60deg, 
+hsl(0,75%,50%)10%,
+hsl(20,75%,50%)10%,
+hsl(20,75%,50%)25%,
+hsl(50,75%,50%)25%,
+hsl(50,75%,50%)40%,
+hsl(130,75%,50%)40%,
+hsl(130,75%,50%)55%,
+hsl(200,75%,50%)55%,
+hsl(200,75%,50%)70%,
+hsl(260,75%,50%)70%,
+hsl(260,75%,50%)85%,
+hsl(0,75%,50%)85%,);
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+background: linear-gradient(120deg, #1f005c, #48005f, #680060, #830060, #9c155f, #b22c5e, #c5415d, #d5585c, #e36e5c, #ef865e, #f89d63, #ffb56b);
+    font-family: "Cinzel Decorative";
+      
+important
+      <div class="vv2"> <video src="/assets/Why Programming Is Important_.mp4" controls autoplay class="vid" width="800px" ></video></div>
+      important
+
+
+
+
+
+
+
+
+
+
+
+      	const togglePassword = document.getElementById('togglePassword');
+const passwordInput = document.getElementById('passwordInput');
+const submitButton = document.getElementById('submitButton');
+const passwordError = document.getElementById('passwordError');
+const phoneInput = document.getElementById('phoneInput');
+const phoneError = document.getElementById('phoneError');
+
+togglePassword.addEventListener('click', function() {
+  const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+  passwordInput.setAttribute('type', type);
+});
+
+submitButton.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  const password = passwordInput.value;
+  const phone = phoneInput.value;
+
+  // Regular expressions to check for uppercase, lowercase, number, and special character
+  const uppercaseRegex = /[A-Z]/;
+  const numberRegex = /[0-9]/;
+  const specialCharRegex = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+  const phoneRegex = /^[0-9]*$/;
+
+  // Check if the password meets the complexity requirements
+  let passwordErrorMessage = '';
+
+  // Check if the password contains at least one uppercase letter
+  if (!uppercaseRegex.test(password)) {
+    passwordErrorMessage += "Password must contain at least one uppercase letter.\n";
+  }
+
+  // Check if the password contains at least one number
+  if (!numberRegex.test(password)) {
+    passwordErrorMessage += "Password must contain at least one number.\n";
+  }
+
+  // Check if the password contains at least one special character
+  if (!specialCharRegex.test(password)) {
+    passwordErrorMessage += "Password must contain at least one special character.\n";
+  }
+
+  // Display separate error messages if any condition is not met
+  if (passwordErrorMessage) {
+    alert(passwordErrorMessage.trim());
+    return; // Exit early if password conditions are not met
+  }
+
+  // Check if the phone number contains only digits
+  if (!phoneRegex.test(phone)) {
+    phoneError.textContent = "Phone number must contain only digits.";
+    return; // Exit early if phone number is invalid
+  }
+
+  // If both password and phone number are valid, proceed with submitting the form
+  alert("Form submitted successfully!");
+});
+
+phoneInput.addEventListener('input', function(event) {
+  const allowedCharacters = /^[0-9]*$/;
+  const input = event.target.value;
+  if (!allowedCharacters.test(input)) {
+    event.target.value = input.replace(/\D/g, '');
+  }
+});
+f="#a" class="mm"><i class="fa-solid fa-globe fa-lg" style="color: #fe5622;"></i><span class="color"> عربي </span></a>
+                <div class="menu-icon"><style>
+                    .container {
+                      display: inline-block;
+                      cursor: pointer;
+                    }
+                    
+                    .bar1, .bar2, .bar3 {
+                      width: 35px;
+                      height: 5px;
+                      background-color: #fe5b24;
+                      margin: 6px 0;
+                      transition: 0.4s;
+                    }
+                    
+                    .change .bar1 {
+                      transform: translate(0, 11px) rotate(-45deg);
+                    }
+                    
+                    .change .bar2 {opacity: 0;}
+                    
+                    .change .bar3 {
+                      transform: translate(0, -11px) rotate(45deg);
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    
+                    <div class="container" onclick="myFunction(this)">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                    </div>
+                    
+                    <script>
+                    function myFunction(x) {
+                      x.classList.toggle("change");
+                    }
+                    </script>
+
+
+
+
+
+  <script>
+  						
+const togglePassword = document.getElementById('togglePassword');
+const emailinput = document.getElementById('emailinput');
+const passwordInput = document.getElementById('passwordInput');
+const submitButton = document.getElementById('submitButton');
+const passwordError = document.getElementById('passwordError');
+const phoneInput = document.getElementById('phoneInput');
+const phoneError = document.getElementById('phoneError');
+
+togglePassword.addEventListener('click', function() {
+  const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+});
+
+submitButton.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  const password = passwordInput.value;
+  const phone = phoneInput.value;
+const email=emailinput.value
+  // Regular expressions to check for uppercase, lowercase, number, and special character
+  const uppercaseRegex = /[A-Z]/;
+  const numberRegex = /[0-9]/;
+  const specialCharRegex = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+  const phoneRegex = /^[0-9]*$/;
+  const emailinput =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  // Check if the password meets the complexity requirements
+  let passwordErrorMessage = [];
+
+  // Check if the password contains at least one uppercase letter
+  if (!uppercaseRegex.test(password)) {
+    passwordErrorMessage.push("Password must contain at least one uppercase letter.");
+  }
+
+  // Check if the password contains at least one number
+  if (!numberRegex.test(password)) {
+    passwordErrorMessage.push("Password must contain at least one number.");
+  }
+
+  // Check if the password contains at least one special character
+  if (!specialCharRegex.test(password)) {
+    passwordErrorMessage.push("Password must contain at least one special character.");
+  }
+
+  // Display error message if any condition is not met
+  if (passwordErrorMessage.length > 0) {
+    alert(passwordErrorMessage.join('\n'));
+    return; // Exit early if password conditions are not met
+  }
+
+  // Check if the phone number contains only digits
+  if (!phoneRegex.test(phone)) {
+    phoneError.textContent = "Phone number must contain only digits.";
+    return; // Exit early if phone number is invalid
+  }
+
+  // If both password and phone number are valid, proceed with submitting the form
+  alert("Form submitted successfully!");
+});
+
+phoneInput.addEventListener('input', function(event) {
+  const allowedCharacters = /^[0-9]*$/;
+  const input = event.target.value;
+  if (!allowedCharacters.test(input)) {
+    event.target.value = input.replace(/\D/g, '');
+  }
+});
+
+
+
+
+  </script>
+
+
+                    						 <script>
+<script>
+  const togglePassword = document.getElementById('togglePassword');
+  const passwordInput = document.getElementById('passwordInput');
+  const submitButton = document.getElementById('submitButton');
+  const passwordError = document.getElementById('passwordError');
+  const phoneInput = document.getElementById('phoneInput');
+  const phoneError = document.getElementById('phoneError');
+  const emailInput = document.getElementById('emailInput');
+  const emailError = document.getElementById('emailError');
+
+  togglePassword.addEventListener('click', function() {
+    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwordInput.setAttribute('type', type);
+  });
+
+  submitButton.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const password = passwordInput.value;
+    const phone = phoneInput.value;
+    const email = emailInput.value;
+
+    // Regular expressions to check for uppercase, lowercase, number, and special character
+    const uppercaseRegex = /[A-Z]/;
+    const lowercaseRegex = /[a-z]/;
+    const numberRegex = /[0-9]/;
+    const specialCharRegex = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+    const phoneRegex = /^[0-9]*$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Check if the email address is valid
+    if (!emailRegex.test(email)) {
+      emailError.textContent = "Invalid email format.";
+      return; // Exit early if email is invalid
+    } else {
+      emailError.textContent = ""; // Clear previous error message if email is valid
+    }
+
+    // Check if the password meets the complexity requirements
+    let passwordErrorMessage = [];
+
+    // Check if the password contains at least one uppercase letter
+    if (!uppercaseRegex.test(password)) {
+      passwordErrorMessage.push("Password must contain at least one uppercase letter.");
+    }
+
+    // Check if the password contains at least one number
+    if (!numberRegex.test(password)) {
+      passwordErrorMessage.push("Password must contain at least one number.");
+    }
+
+    // Check if the password contains at least one special character
+    if (!specialCharRegex.test(password)) {
+      passwordErrorMessage.push("Password must contain at least one special character.");
+    }
+
+    // Display error message if any condition is not met
+    if (passwordErrorMessage.length > 0) {
+      alert(passwordErrorMessage.join('\n'));
+      return; // Exit early if password conditions are not met
+    }
+
+    // Check if the phone number contains only digits
+    if (!phoneRegex.test(phone)) {
+      phoneError.textContent = "Phone number must contain only digits.";
+      return; // Exit early if phone number is invalid
+    } else {
+      phoneError.textContent = ""; // Clear previous error message if phone number is valid
+    }
+
+    // Check if the email contains at least one uppercase letter
+    if (!uppercaseRegex.test(email)) {
+      emailError.textContent = "Email must contain at least one uppercase letter.";
+      return; // Exit early if email is invalid
+    } else {
+      emailError.textContent = ""; // Clear previous error message if email is valid
+    }
+
+    // Check if the email contains at least one lowercase letter
+    if (!lowercaseRegex.test(email)) {
+      emailError.textContent = "Email must contain at least one lowercase letter.";
+      return; // Exit early if email is invalid
+    } else {
+      emailError.textContent = ""; // Clear previous error message if email is valid
+    }
+
+    // Check if the email contains at least one number
+    if (!numberRegex.test(email)) {
+      emailError.textContent = "Email must contain at least one number.";
+      return; // Exit early if email is invalid
+    } else {
+      emailError.textContent = ""; // Clear previous error message if email is valid
+    }
+
+    // Check if the email contains at least one special character
+    if (!specialCharRegex.test(email)) {
+      emailError.textContent = "Email must contain at least one special character.";
+      return; // Exit early if email is invalid
+    } else {
+      emailError.textContent = ""; // Clear previous error message if email is valid
+    }
+
+    // If password, phone number, and email are valid, proceed with submitting the form
+    alert("Form submitted successfully!");
+  });
+
+  phoneInput.addEventListener('input', function(event) {
+    const allowedCharacters = /^[0-9]*$/;
+    const input = event.target.value;
+    if (!allowedCharacters.test(input)) {
+      event.target.value = input.replace(/\D/g, '');
+    }
+  });
+</script>
+
+</script>
+
+  javascript
+// </script>   </script>   
