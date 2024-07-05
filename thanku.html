@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Button Colors</title>
+</head>
+<body>
+
+<button class="btnt1" id="btn1" style="background-color: orange;">Level 1</button>
+<button class="btnt2" id="btn2">Level 2</button>
+<button class="btnt3" id="btn3">Level 3</button>
+<button class="btnt4" id="btn4">Level 4</button>
+
+<script>
+var lastClickedButton = document.getElementById('btn1');
+var buttons = document.querySelectorAll('button');
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', function() {
+    // Change background color of clicked button to white
+    this.style.backgroundColor = 'white';
+    
+    // Change background color of the previously clicked button to orange
+    lastClickedButton.style.backgroundColor = 'orange';
+    
+    // Update last clicked button
+    lastClickedButton = this;
+  });
+}
+</script>
+
+</body>
+</html>
+
